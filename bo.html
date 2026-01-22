@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(184, 184, 56);
+            margin: 0;
+        }
+
+        
+        .menu{
+            display: flex;                 
+            align-items: center;           
+            padding: 10px 30px;
+            background-color: #6f7a1f;
+            height: 70px;
+            border-bottom: 3px solid #4f5814;
+        }
+
+        .menu img{
+            width: 60px;                   
+            height: auto;
+        }
+
+        .links{
+            margin-left: auto;             
+            display: flex;
+        }
+
+        .menu a{
+            text-decoration: none;
+            padding: 15px;
+            color: wheat;
+            text-align: center;
+        }
+
+       
+        .centro{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        } 
+
+        .teste{
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .teste img{
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+        }
+
+        
+        @media (max-width: 600px){
+            .centro{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu{
+                flex-direction: column;
+            }
+
+            .links{
+                margin-left: 0;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>    
+</head>
+
+<body>
+
+  
+    <nav class="menu">
+        
+        <img src="logo.jpg" alt="logo">
+
+        
+        <div class="links">
+            <a href="%">inicio</a>
+            <a href="$">fotos</a>
+            <a href="$">noticias</a>
+            <a href="$">contato</a>
+            <a href="$">videos</a>
+        </div>
+    </nav>
+
+    
+    <div class="centro">
+        <div class="teste">
+            <img src="eemti.jpg" alt="imagem1">
+            <p>FLAMENGO</p>
+        </div>
+
+        <div class="teste">
+            <img src="eemti.jpg" alt="imagem2">
+            <p>VASCO</p>
+        </div>
+
+        <div class="teste"> 
+            <img src="eemti.jpg" alt="imagem3">
+            <p>SÃO PAULO</p>
+        </div>
+    </div>
+
+</body>
+</html>
