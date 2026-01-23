@@ -8,17 +8,23 @@
 </head>
 <body>
     <header>
-    <img src="logo.jpg" id="logo" alt="Texto alternativo" title="Legenda"/>
-    <h1>ETMI TECH</h1>
-    <nav></nav>
+        <img src="governo.png" id="logo" alt="Texto alternativo" title="Legenda" />
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="bo.html">Sites</a></li>
+                        <li><a href="https://www.seduc.ce.gov.br/">Seduc</a></li>
+                        <li><a href="https://www.centec.org.br/">Centec</a></li>
+                    </ul>
+                </nav>
     </header> 
     <main>
         <section>
-                <img src="eemti.jpg" id="banner-principal"/>
+                <img src="logo.jpg" id="banner-principal"/>
         </section>
-        <section>
-            <article>
-                 <img src="banner.jpg" class="banner">
+        <section class="container">
+            <article class="conteudo">
+                 <img src="eemti.jpg" class="banner"/>
                     <h2>#Sobre</h2>
                         <!-- tag de paragráfo -->
                         <p>
@@ -27,18 +33,18 @@
                         escolas estaduais. Atualmente, a rede pública conta com <strong><i>"261 Escolas de Ensino
                         Médio em Tempo Integral (EEMTIs) distribuídas em 130 municípios cearenses."</i></strong>
                         </p>
-            </article>
-            <article>
-                <img src="banner.jpeg" class="banner" />
-                <h2>#Tempo Integral</h2>
-                <p>
-                Cada escola de tempo integral oferta uma jornada de nove horas, garantindo três refeições
-                diárias. O currículo é composto por 30 horas semanais de disciplinas da base comum a todos
-                estudantes e 15 horas na parte flexível, sendo que 10 são escolhidas pelos alunos.
-                </p>
-            </article>
-            <article>
-                <img src="banner.jpeg" class="banner" />
+                    </article>
+                    <article class="conteudo">
+                        <img src="eemti.jpg" class="banner"/>
+                        <h2>#Tempo Integral</h2>
+                        <p>
+                        Cada escola de tempo integral oferta uma jornada de nove horas, garantindo três refeições
+                        diárias. O currículo é composto por 30 horas semanais de disciplinas da base comum a todos
+                        estudantes e 15 horas na parte flexível, sendo que 10 são escolhidas pelos alunos.
+                        </p>
+                    </article>
+            <article class="conteudo">
+                <img src="eemti.jpg" class="banner"/>
                 <h2>#Modelo de Aprendizagem</h2>
                     <p>
                     Este modelo de ensino aumenta o tempo escolar e amplia as oportunidades de aprendizagem
@@ -47,10 +53,16 @@
                     </p>
             </article>
         </section>
-        <section></section>
+        <section id="video">
+            <div class="container">
+                <img src="eemti.jpg" />
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dOPjtGsiGLw"
+            title="EMTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encryptedmedia; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
         </main>
         
-       <footer>
+       <footer id="rodape">
         <p>
             &copy;;2017 - 2023 – GOVERNO DO ESTADO DO CEARÁ TODOS OS DIREITOS
             RESERVADOS
